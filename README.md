@@ -23,7 +23,7 @@ Simply change your urlManager to use the given class and set a prefix. The other
 
 ```php
 'urlManager' => [
-	'class'     => 'vendor.igorsantos07.PrefixedUrlManager',
+	'class'     => 'vendor.igorsantos07.yii-prefixed-url.PrefixedUrlManager',
 	'urlPrefix' => 'admin/',
 	'rules'     => require('_routes.php'),
 ],
