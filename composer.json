@@ -4,24 +4,23 @@
 	"keywords":          ["yii", "url", "routing", "prefix", "cellphone"],
 	"type":              "yii-extension",
 	"license":           "BSD-3-Clause",
+	"minimum-stability": "dev",
+	
+	"require":     {
+		"yiisoft/yii": "1.1.*"
+	},
+
 	"support":           {
 		"email":  "igorsantos07+dev@gmail.com",
-		"issues": "https://github.com/igorsantos07/yii-prefixed-url/issues",
-		"source": "https://github.com/igorsantos07/yii-prefixed-url"
+		"issues": "https://github.com/igorsantos07/Yii-PrefixedUrlManager/issues",
+		"source": "https://github.com/igorsantos07/Yii-PrefixedUrlManager"
 	},
-	"minimum-stability": "dev",
+	
 	"authors":           [
 		{
 			"name":     "Igor Santos",
 			"email":    "igorsantos07@gmail.com",
 			"homepage": "http://www.igorsantos.com.br"
 		}
-	],
-
-	"require":     {
-		"yiisoft/yii": "1.1.*"
-	},
-	"require-dev": {
-		"phpunit/phpunit": "3.7.*"
-	}
+	]
 }
