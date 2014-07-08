@@ -18,6 +18,8 @@ or if you can adapt to make it work for you as well (and, again, send a PR after
 Installation and usage
 ----------------------
 
+You can find this extension on Packagist: [igorsantos07/yii-prefixed-url](https://packagist.org/packages/igorsantos07/yii-prefixed-url).
+
 Simply change your urlManager to use the given class and set a prefix. The other options you can see as usual in the
 [URL Management guide](guide) and [CUrlManager docs](docs). Here's a sample:
 
