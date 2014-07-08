@@ -2,7 +2,7 @@ Prefixed URL Routes for Yii 1.1
 ===============================
 
   This extension provides the ability to include fixed prefixes in URLs, in the case you need those for external
-routing (your infrastructure splits application servers based on subpaths) or any other reason that creating a module
+routing (your infrastructure splits application servers based on sub-paths) or any other reason that creating a module
 would be too much trouble - since it makes little sense to have an application comprised of only one module and nothing
 else, right?
 
@@ -15,8 +15,10 @@ you feel the need of this class with other options, feel free to send a pull-req
 or if you can adapt to make it work for you as well (and, again, send a PR after it!).
 
 
-Instalation and usage
----------------------
+Installation and usage
+----------------------
+
+You can find this extension on Packagist: [igorsantos07/yii-prefixed-url](https://packagist.org/packages/igorsantos07/yii-prefixed-url).
 
 Simply change your urlManager to use the given class and set a prefix. The other options you can see as usual in the
 [URL Management guide](guide) and [CUrlManager docs](docs). Here's a sample:
