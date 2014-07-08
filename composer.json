@@ -10,16 +10,10 @@
 		"yiisoft/yii": "1.1.*"
 	},
 
-	"support":           {
-		"email":  "igorsantos07+dev@gmail.com",
-		"issues": "https://github.com/igorsantos07/Yii-PrefixedUrlManager/issues",
-		"source": "https://github.com/igorsantos07/Yii-PrefixedUrlManager"
-	},
-	
 	"authors":           [
 		{
 			"name":     "Igor Santos",
-			"email":    "igorsantos07@gmail.com",
+			"email":    "igorsantos07+dev@gmail.com",
 			"homepage": "http://www.igorsantos.com.br"
 		}
 	]
