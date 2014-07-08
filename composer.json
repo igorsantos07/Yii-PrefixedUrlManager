@@ -1,7 +1,7 @@
 {
 	"name":              "igorsantos07/yii-prefixed-url",
 	"description":       "Provides ability to include prefixes in URLs for external routing",
-	"keywords":          ["yii", "url", "routing", "prefix", "cellphone"],
+	"keywords":          ["yii", "url", "routing", "prefix"],
 	"type":              "yii-extension",
 	"license":           "BSD-3-Clause",
 	"minimum-stability": "dev",
