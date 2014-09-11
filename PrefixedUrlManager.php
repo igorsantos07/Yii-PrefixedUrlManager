@@ -33,8 +33,10 @@ class PrefixedUrlManager extends CUrlManager {
 				if (substr($pathInfo, 0, $length) === $prefix)
 					$pathInfo = substr($pathInfo, $length);
 			}
-
 		}
+
+		if ($pathInfo[0] == '/')
+			$pathInfo = substr($pathInfo, 1);
 
 		return $pathInfo?: '';
 	}
@@ -61,7 +63,7 @@ class PrefixedUrlRule extends CUrlRule {
 		else {
 			$prefix = $this->getPrefix($manager);
 			if ($prefix)
-				$url = $prefix.$url;
+				$url = "$prefix/$url";
 
 			return $url;
 		}
